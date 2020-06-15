@@ -28,6 +28,7 @@ These functions are called asynchronously in a “FetchUniter” component, and 
 ## Reflection
 
 **Weakest Point:**
+
 I know it’s better (usually? always?) to make API requests server side. But I’m making mine client side, using non-sensitive keys (or no keys in some cases). I do at least put them in a .env file.
 
 **Next Steps:**
