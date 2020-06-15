@@ -8,9 +8,9 @@ I pull together 3 public APIs, one from a random user/person API , a second from
 
 Notes:
       
-1)  The .env file with api keys is not in repo
+1.  The .env file with api keys is not in repo
 
-2)  I can share my bitbucket repo if the commit history is needed (i figured a public github repo was prefered)
+2.  I can share my bitbucket repo if the commit history is needed (i figured a public github repo was prefered)
 
 Deployed at: [empathy-generator.web.app](https://empathy-generator.web.app/)
 
