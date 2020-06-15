@@ -20,10 +20,10 @@ These functions are called asynchronously in a “FetchUniter” component, and 
 
 ## Reflection
 
-####Weakest Point:
+**Weakest Point:**
 I know it’s better (usually? always?) to make API requests server side. But I’m making mine client side, using non-sensitive keys (or no keys in some cases). I do at least put them in a .env file.
 
-####Next Steps:
+**Next Steps:**
 
 1.  I’m working on adding a Firebase Functions Node.js function to get a Twitter quote and deliver it to my client upon request. The Twitter API uses sensitive keys, so that’s why I’m doing it server-side. The quote will be related to the person’s name or their location, etc. and show up under the weather image. (...My schedule suddenly got crazy, so I wasn’t able to complete this part yet.)
 2.  The RandomUser API’s photo resolution is way too low. Human connection is the focus of the app, so I need to get that fixed. I’ve looked into replacing the photo with an image from other APIs (eg. unsplash) , but most searches return unrelated images or an image of the wrong gender. Bing’s API seems to have good searchability, and I’ve made some headway signing up with them, but it’s a bit too tall of a task to navigate their documentation etc in the given time frame.
